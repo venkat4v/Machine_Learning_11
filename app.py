@@ -3,7 +3,7 @@ from housing.exception import HousingException
 from housing.logger import logging
 import sys
 
- app=Flask(__name__)
+app=Flask(__name__)
 
 
 @app.route("/venkat",methods=['GET','POST'])
